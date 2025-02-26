@@ -30,7 +30,12 @@ This is a backend service for fetching news articles and managing user favorites
 | `/api/news/search?query=keyword`| GET    | Search news articles by keyword                  |
 
 
+## Setup
 
+1. Clone the repository:
+   ```bash
+   git clone <https://github.com/surajmendhe5573/News-Aggregator-App.git>
+   cd <News-Aggregator-App>
 
 
 ## Getting Started
@@ -39,8 +44,26 @@ This is a backend service for fetching news articles and managing user favorites
 - Node.js and npm installed
 - MongoDB installed
 
+## Technologies Used
+- **Backend Framework**: Node.js with Express.js
+- **Database**: MongoDB
+- **Authentication**: JSON Web Tokens (JWT)
+- **API Testing**: Postman
+- **Version Control**: Git and GitHub
+## Environment Variables
 
+Create a `.env` file in the root directory of the project with the following variables:
 
+```
+# Port
+PORT=5000
+
+# Database Connection
+MONGO_URI=mongodb://localhost:27017/defaultdb
+
+NEWS_API_KEY= default_api_key
+
+```
 
 
 ## 🚀 About Me
